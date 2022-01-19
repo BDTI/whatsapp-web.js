@@ -15,10 +15,6 @@ exports.DefaultOptions = {
     webVersionCache: {
         type: 'local',
     },
-    webVersion: '2.2333.11',
-    webVersionCache: {
-        type: 'local',
-    },
     authTimeoutMs: 0,
     qrMaxRetries: 0,
     takeoverOnConflict: false,

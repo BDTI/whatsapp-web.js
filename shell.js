@@ -13,6 +13,11 @@ const { Client, LocalAuth } = require('./index');
 const client = new Client({
     puppeteer: { headless: false }, 
     authStrategy: new LocalAuth()
+    args: [
+        '--no-sandbox',
+        '--disable-setuid-sandbox'
+    ],
+    session: sessionCfg 
 });
 
 console.log('Initializing...');

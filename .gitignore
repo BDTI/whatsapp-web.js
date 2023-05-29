@@ -73,3 +73,5 @@ typings/
 .wwebjs_auth/
 
 .idea
+# local version cache
+.wwebjs_cache/

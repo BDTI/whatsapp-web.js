@@ -15,7 +15,7 @@ exports.DefaultOptions = {
     webVersionCache: {
         type: 'local',
     },
-    webVersion: '2.2322.15',
+    webVersion: '2.2333.11',
     webVersionCache: {
         type: 'local',
     },
